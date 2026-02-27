@@ -13,7 +13,7 @@ export default {
 };
 </script>
 <template>
-  <ul class="list-group">
+  <ui class="list-group">
     <li
       class="list-group-item"
       v-for="(contact, index) in contacts"
@@ -23,5 +23,5 @@ export default {
     >
       {{ contact.name }}
     </li>
-  </ul>
+  </ui>
 </template>
